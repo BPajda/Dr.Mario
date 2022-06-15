@@ -1,0 +1,148 @@
+html{
+    background-image: url("img/pf.png");
+    background-repeat: no-repeat;
+    background-size: 1120px 715px;
+}
+#gameboard {
+    left: 473px;
+    top: 182px;
+    width: 240px;
+    position: absolute;
+    height: 240px;
+    
+    
+    /* padding-left: 0.5px;  */
+    /* padding-top: 2.5px; */
+}
+#throwboard {
+    left: 559px;
+    top: 7px;
+    width: 360px;
+    position: absolute;
+    height: 240px;
+}
+.div {
+    width: 30px;
+    height: 30px;
+     margin-bottom: -5px ;
+
+    display: inline-block;
+    background-color: none;
+    margin-left: -1px;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    /* flex,grid,float */
+}
+
+.wirus{
+    opacity: 100%;
+}
+.white{
+    background-color: none;
+}
+/* 1 */
+.red{  
+    background-color: brown;
+}
+/* 2 */
+.blue{
+    background-color: blue;
+}
+/* 3 */
+.green{
+    background-color: yellow;
+}
+#score{
+    left: 254px;
+    top: 238px;
+    width: 27px;
+    height: 30px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#highscore{
+    position: absolute;
+    left: 254px;
+    top: 149px;
+    width: 27px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#virus{
+    position: absolute;
+    left: 1010px;
+    top: 625px;
+    width: 27px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#virus1{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 85px;
+    height: 85px;
+    top: 500px;
+    left: 160px;
+
+}
+#virus2{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 85px;
+    height: 85px;
+    top: 500px;
+    left: 160px;
+
+}
+#virus3{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 85px;
+    height: 85px;
+    top: 500px;
+    left: 160px;
+
+}
+#sc{
+    background-image: url("img/sc.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: none;
+    position: absolute;
+    top: 260px;
+    left: 240px;
+    height: 250px;
+    width: 600px;
+
+}
+#godr{
+    background-image: url("img/go_dr.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: 830px;
+    height: 220px;
+    width: 200px;
+}
+#go{
+    background-image: url("img/go.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: none;
+    position: absolute;
+    top: 260px;
+    left: 240px;
+    height: 250px;
+    width: 600px;
+
+
+}
